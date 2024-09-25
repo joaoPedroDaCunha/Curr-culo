@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <style class="globla_styles">
+        body{margin: 0;padding: 0px;overflow: scroll;display: flex;flex-direction: column;flex: content;align-items: center;}
+        body.autoscroll{overflow-y: auto;}
+        .foto{height: 100px;width: 100px;border-radius: 7px;}
+        header{display: flex;flex-direction: row;gap: 5px;padding: 18px;background-image: url("https://i.pinimg.com/originals/4e/e9/ac/4ee9ace351404675b6dddb725ec8bceb.jpg");background-size: cover;width: 21cm;}
+    </style>
     <title>Curriculo</title>
 </head>
 <body>
-    <header></header>
+    <header> <img src="https://media.licdn.com/dms/image/v2/D4D03AQFqEOSxtBku_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671218471398?e=1732752000&v=beta&t=uFdLO2XMw4lZSzziBolKpYl-ikhILNklyYEuOu1QMPA" class="foto">
+        <div class="info">
+            <P style="color: #fff;"><strong>Nome:</strong> João Pedro da Cunha Santos</P>
+            <P style="color: #fff;"><strong>Email:</strong> joaopedrodacunha.santos@gmail.com</P>
+            <P style="color: #fff;"><strong>Numero:</strong> (19) 98134-4006</P>
+        </div></header>
     <main></main>
     <footer></footer>
-    <script >
-        const withMt = require("@material-tailwind/html/utils.withMT");
-        module.exports = withMt({
-            content:["index.html"],
-            theme:{
-                extends:{},
-            },
-            plugins:[],
-        })
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
