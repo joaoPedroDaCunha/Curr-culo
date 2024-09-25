@@ -3,50 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <title>Curriculo</title>
 </head>
 <body>
-    <header>
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFqEOSxtBku_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671218471398?e=1732752000&v=beta&t=uFdLO2XMw4lZSzziBolKpYl-ikhILNklyYEuOu1QMPA" class="foto">
-        <div class="info">
-            <P style="color: #fff;"><strong>Nome:</strong> João Pedro da Cunha Santos</P>
-            <P style="color: #fff;"><strong>Email:</strong> joaopedrodacunha.santos@gmail.com</P>
-            <P style="color: #fff;"><strong>Numero:</strong> (19) 98134-4006</P>
-        </div>
-    </header>
-    <main>
-        <h3 class="pr">Resumo</h3>
-        <p class="pr">Estou em busca de uma oportunidade na área de Programação e Desenvolvimento de Sistemas.</p>
-        <p class="pr">Atualmente, concluindo a graduação em Análise e Desenvolvimento de Sistemas, com participação ativa em</p>
-        <p class="pr">cursos extracurriculares para aprofundar a base de conhecimento na área. Comprometido com o</p>
-        <p class="pr">desenvolvimento contínuo e a aplicação de habilidades técnicas para contribuir de forma significativa em</p>
-        <p class="pr">projetos de tecnologia.</p>
-
-        <h3>Formação</h3>
-        <h5 class="pr">Análise e Desenvolvimento de Sistemas</h5>
-        <p class="pr"><strong>Ano :</strong> 2023</p>
-        <p class="pr"><Strong>Universidade :</Strong> UNIP</p>
-
-        <h3>Cursos Complementares</h3>
-        <p><li>
-                Java Completo, Programação Orientada a Objeto
-            </li>
-            <li>
-                Banco de Dados, SQL,MySQL,SQL Server, Oracle
-            </li>
-        </p>
-
-        <h3>Experiência Profissional</h3>
-        <p class="pr"><strong>NOVORUMO Transportes</strong></p>
-        <p class="pr">Novembro.2023</p>
-        <p class="pr">Limeira,São Paulo</p>
-        <p class="pr"><strong>Cargo :</strong> Estagiario de T.I</p>
-    </main>
-    <footer>
-        <p class="pr" style="color: #fff;"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-da-cunha-santos-2a7456254/">https://www.linkedin.com/in/jo%C3%A3o-pedro-da-cunha-santos-2a7456254/</a></p>
-        <p class="pr" style="color: #fff;"><strong>GitHub: </strong><a href="https://github.com/joaoPedroDaCunha">https://github.com/joaoPedroDaCunha</a></p>
-    </footer>
-    <script src="Index.js"></script>
+    <header></header>
+    <main></main>
+    <footer></footer>
+    <script >
+        const withMt = require("@material-tailwind/html/utils.withMT");
+        module.exports = withMt({
+            content:["index.html"],
+            theme:{
+                extends:{},
+            },
+            plugins:[],
+        })
+    </script>
 </body>
 </html>
