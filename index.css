@@ -35,8 +35,17 @@ p{
 }
 main{
     gap: 5pax;
+    margin: 28px;
 }
 .pr{
     margin: 0px;
     padding: 0px;
+}
+footer{
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    background-image: url("https://i.pinimg.com/originals/4e/e9/ac/4ee9ace351404675b6dddb725ec8bceb.jpg");
+    background-size: cover;
+    width: 21cm;
 }
