@@ -19,6 +19,10 @@ header{
     background-size: cover;
     width: 21cm;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .foto{
     height: 100px;
@@ -44,7 +48,7 @@ footer{
     flex-direction: column;
     gap: 5px;
     padding: 18px;
-    background-image: url("https://i.pinimg.com/originals/4e/e9/ac/4ee9ace351404675b6dddb725ec8bceb.jpg");
+    /*background-image: url("https://i.pinimg.com/originals/4e/e9/ac/4ee9ace351404675b6dddb725ec8bceb.jpg");*/
     background-size: cover;
     width: 21cm;
 }
