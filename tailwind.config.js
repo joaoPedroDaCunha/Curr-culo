@@ -2,8 +2,24 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily:{
+      sans:['Graphik','sans-serif']
+    },
+    extend: {
+      borderRadius :{
+        '4x1':'3rem'
+      },
+      opacity:['disabled'],
+
+    }
+  },
+  variants:{
+    extend:{
+      borderColor:['focus-visible'],
+      opacity: ['disabled'],
+    }
   },
   plugins: [],
+
 }
 
