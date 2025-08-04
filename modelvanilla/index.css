@@ -1,54 +1,75 @@
-body{
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    align-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-header{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    padding: 18px;
-    background-image: url("https://i.pinimg.com/originals/4e/e9/ac/4ee9ace351404675b6dddb725ec8bceb.jpg");
-    background-size: cover;
-    width: 21cm;
-}
-a{
-    text-decoration: none;
-    color: inherit;
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.foto{
-    height: 100px;
-    width: 100px;
-    border-radius: 7px;
+/* Corpo geral */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
 }
-.info{
-    flex-direction: column;
-   
+
+/* Seção do perfil */
+#perfil {
+  display: flex;
+  align-items: center;
+  background-color: #0066cc;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
 }
-p{
-    padding: 0px;
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 3px solid white;
 }
-main{
-    gap: 5px;
-    padding: 28px;
+
+.info-contato h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
-.pr{
-    margin: 0px;
-    padding: 0px;
+
+.info-contato a {
+  color: #ffcc00;
+  text-decoration: none;
 }
-footer{
-    flex-direction: column;
-    gap: 5px;
-    padding: 18px;
-    /*background-image: url("https://i.pinimg.com/originals/4e/e9/ac/4ee9ace351404675b6dddb725ec8bceb.jpg");*/
-    background-size: cover;
-    width: 21cm;
+
+.info-contato a:hover {
+  text-decoration: underline;
+}
+
+/* Seções principais */
+section {
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+section ul li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #777;
 }
