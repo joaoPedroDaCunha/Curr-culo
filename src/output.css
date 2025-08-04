@@ -563,16 +563,8 @@ video {
   height: 6rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .h-12 {
   height: 3rem;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .flex-row {
@@ -583,10 +575,6 @@ video {
   flex-direction: column;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
 }
@@ -595,25 +583,7 @@ video {
   justify-content: center;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
